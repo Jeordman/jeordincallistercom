@@ -8,7 +8,6 @@
   export let showFullSideBar;
 
   function handleSideBarClick(e: MouseEvent) {
-    console.log("clicke");
     dispatch("sidebar-click", e);
   }
 </script>
