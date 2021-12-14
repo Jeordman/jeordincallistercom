@@ -1,11 +1,8 @@
 <script lang="ts">
-  import { fly, crossfade } from "svelte/transition";
   import { createEventDispatcher } from "svelte";
   import Icon from "svelte-awesome";
   import { bars } from "svelte-awesome/icons";
   let dispatch = createEventDispatcher();
-
-  export let showFullSideBar;
 
   function handleSideBarClick(e: MouseEvent) {
     dispatch("sidebar-click", e);

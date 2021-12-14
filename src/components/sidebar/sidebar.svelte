@@ -44,7 +44,7 @@
       </div>
     </nav>
   {/if}
-  <ToggleSideBarBtn {showFullSideBar} on:sidebar-click={toggleSideBar} />
+  <ToggleSideBarBtn on:sidebar-click={toggleSideBar} />
 </div>
 
 <!-- 1100 media query -->
